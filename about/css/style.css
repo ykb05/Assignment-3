@@ -1,0 +1,184 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Open Sans, sans-serif;
+     	background: url(../images/header_bg.jpg) no-repeat center top;
+      background-size: cover;
+      background-color: #121212;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+header {
+	color: white;
+	height: 100%;
+
+}
+#logowhite {
+	font-weight: 800;
+	font-size: 24px;
+	margin-left: 100px;
+}
+
+h2.piece {
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+.centered {
+	text-align: center;
+}
+button.getitnow {
+	width: 15%;
+	border-radius: 5px;
+	background-color: #f9e42e;
+	font-size: 14px;
+	font-weight: 800;
+	border: 0;
+	padding: 15px;
+	position: relative;
+	top: 150px;
+	color: #033048;
+}
+section {
+	margin-top: -15px;
+}
+#benefitsheader {
+	font-weight: 600;
+	font-size: 20px;
+	color: #033048;
+}
+.benefits {
+	background-color: #f0efef;
+	padding: 50px 0px 0px 100px;
+	height: 75%;
+}
+.benefit-header {
+	color: #606161;
+	font-size: 13px;
+	font-weight: 300;
+	width: 35%;
+}
+.benefit-content {
+	color: #606161;
+	font-size: 13px;
+	font-weight: 300;
+	list-style-type: disc;
+}
+.testimonial {
+	background-image: url("../images/testimonial_bg.jpg");
+	color: white;
+	margin-top: -20px;
+	height: 75%;
+	text-align: center;
+}
+.testimony {
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.testimony-name {
+	font-size: 18px;
+	font-weight: 600;
+}
+.signup {
+	background-color: #f9e42e;
+	text-align: center;
+	height: 25%;
+}
+
+button.signupnow {
+	width: 15%;
+	background-color: #033048;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 800;
+	border: 0;
+	padding: 15px;
+	position: relative;
+	top: 40px;
+	color: white;
+
+}
+footer {
+	text-align: center;
+}
+#yellowlogo {
+	font-size: 24px;
+	font-weight: 800;
+	color: #f9e42e;
+}
+.footerimage {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+#copyright {
+	color: white;
+	font-size: 9px;
+	font-weight: 600;
+	margin-top: 50px;
+}
+
